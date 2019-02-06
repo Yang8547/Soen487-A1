@@ -8,6 +8,7 @@ db.create_all()
 
 import views.user
 import views.question
+import views.answer
 
 
 @app.errorhandler(404)
