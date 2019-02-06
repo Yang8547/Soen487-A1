@@ -4,24 +4,25 @@ import sqlalchemy
 
 # need an app before we import models because models need it
 app = Flask(__name__)
-from models import db, row2dict, Person
 
-
-app.config.from_object(DevConfig)
-
+from models import db
 db.create_all()
 
-# @app.errorhandler(404)
-# def page_not_found(e):
-#     return make_response(jsonify({"code": 404, "msg": "404: Not Found"}), 404)
-#
-#
-# @app.route('/')
-# def soen487_a1():
+import views.user
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return make_response(jsonify({"code": 404, "msg": "404: Not Found"}), 404)
+
+
+@app.route('/')
+def soen487_a1():
+    return "index page"
 #     return jsonify({"title": "SOEN487 Assignment 1",
 #                     "student": {"id": "Your id#", "name": "Your name"}})
-#
-#
+
+
 # @app.route("/person")
 # def get_all_person():
 #     person_list = Person.query.all()
