@@ -130,31 +130,4 @@ class TestUser(unittest.TestCase):
         body = json.loads(str(response.data, "utf8"))
         self.assertEqual(body, {"code": 403, "msg": "User doesn't exist."})
 
-    # def test_put_person_without_id(self):
-    #     # do we really need to check counts?
-    #     initial_count = Person.query.filter_by(name="Amy").count()
-    #
-    #     # send the request and check the response status code
-    #     response = self.app.put("/person", data={"name": "Amy"})
-    #     self.assertEqual(response.status_code, 200)
-    #
-    #     # convert the response data from json and call the asserts
-    #     body = json.loads(str(response.data, "utf8"))
-    #     self.assertDictEqual(body, {"code": 200, "msg": "success"})
-    #
-    #     # check if the DB was updated correctly
-    #     updated_count = Person.query.filter_by(name="Amy").count()
-    #     self.assertEqual(updated_count, initial_count+1)
-    #
-    # def test_put_person_with_new_id(self):
-    #     # send the request and check the response status code
-    #     response = self.app.put("/person", data={"id": 3, "name": "Amy"})
-    #     self.assertEqual(response.status_code, 200)
-    #
-    #     # convert the response data from json and call the asserts
-    #     body = json.loads(str(response.data, "utf8"))
-    #     self.assertDictEqual(body, {"code": 200, "msg": "success"})
-    #
-    #     # check if the DB was updated correctly
-    #     person = Person.query.filter_by(id=3).first()
-    #     self.assertEqual(person.name, "Amy")
+

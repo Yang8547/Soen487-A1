@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d88767-4fc7-4f0d-a444-7806ef522a5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f3367bf-5508-4ded-9c06-8076e10873b6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2fc7d36e-dbac-4772-841e-e4969be12991.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4fecfaca-5a59-45a5-96d6-24d007165d53.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c924728f-7d8a-408d-ae97-b17658fb1ab2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d94b4174-7e89-430a-935a-c6db7ca5fb92.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SOEN487_A1.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/SOEN487_A1.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_SOEN487_A1.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_SOEN487_A1.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/question.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +23,8 @@
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestPerson_test_create_user_fail_username_duplicate.coverage" NAME="Unittests for test_user.TestPerson.test_create_user_fail_username_duplicate Coverage Results" MODIFIED="1550364462662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestUser_test_update_user_fail_username_duplicate.coverage" NAME="Unittests for test_user.TestUser.test_update_user_fail_username_duplicate Coverage Results" MODIFIED="1550366484025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1549496752621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_question_TestQuestion_test_delete_question_fail_invalid_userID.coverage" NAME="Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID Coverage Results" MODIFIED="1550374372158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_question_TestQuestion.coverage" NAME="Unittests for test_question.TestQuestion Coverage Results" MODIFIED="1550374417028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Flask__main_py___1_.coverage" NAME="Flask (main.py) (1) Coverage Results" MODIFIED="1550363755765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_in_test_user_py.coverage" NAME="Unittests in test_user.py Coverage Results" MODIFIED="1550366543514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
@@ -83,20 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="126">
               <caret line="7" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/answer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#60#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,26 +87,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
+            <state>
               <caret column="39" selection-start-column="29" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_user.py">
+        <entry file="file://$PROJECT_DIR$/tests/test_question.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="109" column="68" lean-forward="true" selection-start-line="109" selection-start-column="68" selection-end-line="109" selection-end-column="68" />
+            <state relative-caret-position="210">
+              <caret line="128" column="70" selection-start-line="128" selection-start-column="70" selection-end-line="128" selection-end-column="70" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -132,19 +106,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/user.py">
+        <entry file="file://$PROJECT_DIR$/views/question.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="70" lean-forward="true" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="611">
+              <caret line="95" column="67" lean-forward="true" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://53aa20fb-4c0b-4aa1-9321-4ec0ded800bd/schema/main/table/user">
+        <entry file="das://092c7b1e-4e9d-4cc1-8f26-a0da0d43ed40/schema/main/table/question">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -186,16 +157,17 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="d94b4174-7e89-430a-935a-c6db7ca5fb92/schema/main/table/sqlite_master.sql" />
         <option value="d94b4174-7e89-430a-935a-c6db7ca5fb92/schema/main/table/user.sql" />
-        <option value="$PROJECT_DIR$/views/question.py" />
         <option value="$PROJECT_DIR$/views/answer.py" />
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/tests/test_app.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/views/user.py" />
-        <option value="$PROJECT_DIR$/tests/test_user.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tests/test_user.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/views/question.py" />
+        <option value="$PROJECT_DIR$/tests/test_question.py" />
       </list>
     </option>
   </component>
@@ -255,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_user.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_question.TestQuestion">
     <configuration name="Soen487_A1" type="Python.FlaskServer" factoryName="Flask server">
       <module name="Soen487_A1" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -271,7 +243,7 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user.TestPerson.test_create_user_fail_username_duplicate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_question.TestQuestion" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Soen487_A1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,11 +254,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user.TestPerson.test_create_user_fail_username_duplicate&quot;" />
+      <option name="_new_target" value="&quot;test_question.TestQuestion&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_user.TestUser.test_get_user_fail_invalid_id" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Soen487_A1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,7 +269,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user.TestUser.test_get_user_fail_invalid_id&quot;" />
+      <option name="_new_target" value="&quot;test_question.TestQuestion.test_delete_question_fail_invalid_userID&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -348,19 +320,19 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.Soen487_A1" />
-      <item itemvalue="Python tests.Unittests for test_user.TestPerson.test_create_user_fail_username_duplicate" />
-      <item itemvalue="Python tests.Unittests for test_user.TestUser.test_get_user_fail_invalid_id" />
       <item itemvalue="Python tests.Unittests for test_user.TestUser.test_get_user_success" />
       <item itemvalue="Python tests.Unittests in test_user.py" />
       <item itemvalue="Python tests.Unittests for test_user.TestUser.test_update_user_fail_username_duplicate" />
+      <item itemvalue="Python tests.Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" />
+      <item itemvalue="Python tests.Unittests for test_question.TestQuestion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_question.TestQuestion" />
+        <item itemvalue="Python tests.Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" />
         <item itemvalue="Python tests.Unittests in test_user.py" />
         <item itemvalue="Python tests.Unittests for test_user.TestUser.test_update_user_fail_username_duplicate" />
         <item itemvalue="Python tests.Unittests for test_user.TestUser.test_get_user_success" />
-        <item itemvalue="Python tests.Unittests for test_user.TestUser.test_get_user_fail_invalid_id" />
-        <item itemvalue="Python tests.Unittests for test_user.TestPerson.test_create_user_fail_username_duplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -378,17 +350,11 @@
       <workItem from="1549473367414" duration="14000" />
       <workItem from="1549473543565" duration="15567000" />
       <workItem from="1549936973071" duration="6973000" />
-      <workItem from="1550274627378" duration="11239000" />
+      <workItem from="1550274627378" duration="16630000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_user_TestUser_test_get_user_success - 2019.02.16 at 19h 54m 22s.xml">
-      <configuration name="Unittests for test_user.TestUser.test_get_user_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_user_TestUser_test_get_user_success - 2019.02.16 at 19h 55m 12s.xml">
-      <configuration name="Unittests for test_user.TestUser.test_get_user_success" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_user_TestUser_test_get_user_success - 2019.02.16 at 19h 55m 24s.xml">
       <configuration name="Unittests for test_user.TestUser.test_get_user_success" configurationId="tests" />
     </history-entry>
@@ -413,9 +379,15 @@
     <history-entry file="Unittests_in_test_user_py - 2019.02.16 at 20h 22m 24s.xml">
       <configuration name="Unittests in test_user.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_question_TestQuestion_test_delete_question_fail_invalid_userID - 2019.02.16 at 22h 32m 52s.xml">
+      <configuration name="Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_question_TestQuestion - 2019.02.16 at 22h 33m 37s.xml">
+      <configuration name="Unittests for test_question.TestQuestion" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41660000" />
+    <option name="totallyTimeSpent" value="47051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,12 +408,12 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3280116" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32771084" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32771084" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.49518073" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.26506025" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -523,13 +495,6 @@
     <entry file="das://c924728f-7d8a-408d-ae97-b17658fb1ab2/schema/main/table/question" />
     <entry file="das://4fecfaca-5a59-45a5-96d6-24d007165d53/schema/main/table/question" />
     <entry file="das://4fecfaca-5a59-45a5-96d6-24d007165d53/schema/main/table/user" />
-    <entry file="file://$PROJECT_DIR$/views/question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94a17f9d-8243-4fb1-a4e3-3b1ab9a643f4/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -573,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret column="39" selection-start-column="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -601,20 +559,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://092c7b1e-4e9d-4cc1-8f26-a0da0d43ed40/schema/main/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="7" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -643,8 +587,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="109" column="68" lean-forward="true" selection-start-line="109" selection-start-column="68" selection-end-line="109" selection-end-column="68" />
+        <state relative-caret-position="90">
+          <caret line="5" column="23" lean-forward="true" selection-end-line="133" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://092c7b1e-4e9d-4cc1-8f26-a0da0d43ed40/schema/main/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://092c7b1e-4e9d-4cc1-8f26-a0da0d43ed40/schema/main/table/question">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="95" column="67" lean-forward="true" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="128" column="70" selection-start-line="128" selection-start-column="70" selection-end-line="128" selection-end-column="70" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
