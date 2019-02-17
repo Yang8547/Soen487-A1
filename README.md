@@ -1,5 +1,7 @@
 # SOEN487 Assignment 1
 
+Yang An 27878699
+
 Using SQLAlchemy to design and create a database, create views to access and modify the data in the database, and create unit and functional tests to test the service
 ### Step 1: Design database
 
