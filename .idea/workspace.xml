@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d88767-4fc7-4f0d-a444-7806ef522a5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_SOEN487_A1.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_SOEN487_A1.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/answer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +12,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestUser.coverage" NAME="Unittests for test_user.TestUser Coverage Results" MODIFIED="1550385308231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestUser_test_get_user_fail_invalid_id.coverage" NAME="Unittests for test_user.TestUser.test_get_user_fail_invalid_id Coverage Results" MODIFIED="1550364835496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_answer_TestAnswer.coverage" NAME="Unittests for test_answer.TestAnswer Coverage Results" MODIFIED="1550384466377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_answer_TestAnswer.coverage" NAME="Unittests for test_answer.TestAnswer Coverage Results" MODIFIED="1550384500159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_in_test_app_py.coverage" NAME="Unittests in test_app.py Coverage Results" MODIFIED="1550356064187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestPerson.coverage" NAME="Unittests for test_user.TestPerson Coverage Results" MODIFIED="1550364134022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestPerson_test_create_user_fail_username_duplicate.coverage" NAME="Unittests for test_user.TestPerson.test_create_user_fail_username_duplicate Coverage Results" MODIFIED="1550364462662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -21,9 +22,10 @@
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_app_TestApp_test_root.coverage" NAME="Unittests for test_app.TestApp.test_root Coverage Results" MODIFIED="1550354705531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestUser_test_get_user_success.coverage" NAME="Unittests for test_user.TestUser.test_get_user_success Coverage Results" MODIFIED="1550364923626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_user_TestUser_test_update_user_fail_username_duplicate.coverage" NAME="Unittests for test_user.TestUser.test_update_user_fail_username_duplicate Coverage Results" MODIFIED="1550366484025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_in_test_answer_py.coverage" NAME="Unittests in test_answer.py Coverage Results" MODIFIED="1550384508603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1549496752621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_in_test_question_py.coverage" NAME="Unittests in test_question.py Coverage Results" MODIFIED="1550374548395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_question_TestQuestion.coverage" NAME="Unittests for test_question.TestQuestion Coverage Results" MODIFIED="1550374539606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_for_test_question_TestQuestion.coverage" NAME="Unittests for test_question.TestQuestion Coverage Results" MODIFIED="1550385288980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Flask__main_py___1_.coverage" NAME="Flask (main.py) (1) Coverage Results" MODIFIED="1550363755765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Soen487_A1$Unittests_in_test_user_py.coverage" NAME="Unittests in test_user.py Coverage Results" MODIFIED="1550366543514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
@@ -104,11 +106,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_answer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="124" column="102" selection-start-line="124" selection-start-column="102" selection-end-line="124" selection-end-column="102" />
+            <state relative-caret-position="109">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_question.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="306">
+                <caret line="17" selection-start-line="17" selection-end-line="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -164,13 +214,13 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/tests/test_app.py" />
         <option value="$PROJECT_DIR$/views/user.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/test_user.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/views/question.py" />
         <option value="$PROJECT_DIR$/tests/test_question.py" />
         <option value="$PROJECT_DIR$/views/answer.py" />
         <option value="$PROJECT_DIR$/tests/test_answer.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -230,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_answer.TestAnswer">
+  <component name="RunManager" selected="Python tests.Unittests for test_user.TestUser">
     <configuration name="Soen487_A1" type="Python.FlaskServer" factoryName="Flask server">
       <module name="Soen487_A1" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -276,7 +326,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_user.TestUser" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Soen487_A1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,8 +337,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_question.TestQuestion.test_delete_question_fail_invalid_userID&quot;" />
+      <option name="_new_target" value="&quot;test_user.TestUser&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_answer.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Soen487_A1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_answer.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_question.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -306,36 +371,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_user.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Soen487_A1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_user.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Flask server.Soen487_A1" />
-      <item itemvalue="Python tests.Unittests in test_user.py" />
-      <item itemvalue="Python tests.Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" />
       <item itemvalue="Python tests.Unittests for test_question.TestQuestion" />
       <item itemvalue="Python tests.Unittests in test_question.py" />
       <item itemvalue="Python tests.Unittests for test_answer.TestAnswer" />
+      <item itemvalue="Python tests.Unittests in test_answer.py" />
+      <item itemvalue="Python tests.Unittests for test_user.TestUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_user.TestUser" />
+        <item itemvalue="Python tests.Unittests for test_question.TestQuestion" />
+        <item itemvalue="Python tests.Unittests in test_answer.py" />
         <item itemvalue="Python tests.Unittests for test_answer.TestAnswer" />
         <item itemvalue="Python tests.Unittests in test_question.py" />
-        <item itemvalue="Python tests.Unittests for test_question.TestQuestion" />
-        <item itemvalue="Python tests.Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" />
-        <item itemvalue="Python tests.Unittests in test_user.py" />
       </list>
     </recent_temporary>
   </component>
@@ -353,23 +403,11 @@
       <workItem from="1549473367414" duration="14000" />
       <workItem from="1549473543565" duration="15567000" />
       <workItem from="1549936973071" duration="6973000" />
-      <workItem from="1550274627378" duration="21533000" />
+      <workItem from="1550274627378" duration="22857000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_user_py - 2019.02.16 at 20h 22m 24s.xml">
-      <configuration name="Unittests in test_user.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_question_TestQuestion_test_delete_question_fail_invalid_userID - 2019.02.16 at 22h 32m 52s.xml">
-      <configuration name="Unittests for test_question.TestQuestion.test_delete_question_fail_invalid_userID" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_question_TestQuestion - 2019.02.16 at 22h 33m 37s.xml">
-      <configuration name="Unittests for test_question.TestQuestion" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_question_TestQuestion - 2019.02.16 at 22h 35m 40s.xml">
-      <configuration name="Unittests for test_question.TestQuestion" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_question_py - 2019.02.16 at 22h 35m 49s.xml">
       <configuration name="Unittests in test_question.py" configurationId="tests" />
     </history-entry>
@@ -388,9 +426,21 @@
     <history-entry file="Unittests_for_test_answer_TestAnswer - 2019.02.17 at 01h 21m 06s.xml">
       <configuration name="Unittests for test_answer.TestAnswer" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_answer_TestAnswer - 2019.02.17 at 01h 21m 40s.xml">
+      <configuration name="Unittests for test_answer.TestAnswer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_answer_py - 2019.02.17 at 01h 21m 49s.xml">
+      <configuration name="Unittests in test_answer.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_question_TestQuestion - 2019.02.17 at 01h 34m 49s.xml">
+      <configuration name="Unittests for test_question.TestQuestion" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_user_TestUser - 2019.02.17 at 01h 35m 08s.xml">
+      <configuration name="Unittests for test_user.TestUser" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51954000" />
+    <option name="totallyTimeSpent" value="53278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,16 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -558,28 +598,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model_dependency_diagram.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="23" lean-forward="true" selection-end-line="133" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,16 +626,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="8" lean-forward="true" selection-end-line="152" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,11 +662,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_answer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="124" column="102" selection-start-line="124" selection-start-column="102" selection-end-line="124" selection-end-column="102" />
+        <state relative-caret-position="109">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
