@@ -1,18 +1,19 @@
-from flask import jsonify, make_response, request
-from main import app
+from flask import jsonify, make_response, request, Blueprint
 from models import db, row2dict, User, Question
 import sqlalchemy
 
+question_view = Blueprint("question_view", __name__)
+
 
 # get all questions
-@app.route("/question")
+@question_view.route("/question")
 def get_all_question():
     question_list = Question.query.all()
     return jsonify([row2dict(question) for question in question_list])
 
 
 # get question by id
-@app.route("/question/<question_id>")
+@question_view.route("/question/<question_id>")
 def get_question(question_id):
     question = Question.query.filter_by(id=question_id).first()
     if question:
@@ -22,7 +23,7 @@ def get_question(question_id):
 
 
 # get questions by user id
-@app.route("/question-by-user/<user_id>")
+@question_view.route("/question-by-user/<user_id>")
 def get_question_by_user(user_id):
     question_list = Question.query.filter_by(user_id=user_id).all()
     if len(question_list) == 0:
@@ -32,7 +33,7 @@ def get_question_by_user(user_id):
 
 
 # insert new question
-@app.route("/question", methods={"POST"})
+@question_view.route("/question", methods={"POST"})
 def create_question():
     title = request.form.get("title")
     content = request.form.get("content")
@@ -49,15 +50,12 @@ def create_question():
         db.session.commit()
     except sqlalchemy.exc.SQLAlchemyError as e:
         error = "Cannot insert question. "
-        print(app.config.get("DEBUG"))
-        if app.config.get("DEBUG"):
-            error += str(e)
         return make_response(jsonify({"code": 404, "msg": error}), 404)
     return jsonify({"code": 200, "msg": "success"})
 
 
 # update question
-@app.route("/question/<question_id>", methods={"PUT"})
+@question_view.route("/question/<question_id>", methods={"PUT"})
 def edit_question(question_id):
     title = request.form.get("title")
     content = request.form.get("content")
@@ -74,15 +72,12 @@ def edit_question(question_id):
         db.session.commit()
     except sqlalchemy.exc.SQLAlchemyError as e:
         error = "Cannot update question. "
-        print(app.config.get("DEBUG"))
-        if app.config.get("DEBUG"):
-            error += str(e)
         return make_response(jsonify({"code": 404, "msg": error}), 404)
     return jsonify({"code": 200, "msg": "success"})
 
 
 # delete question
-@app.route('/question/<question_id>', methods={'DELETE'})
+@question_view.route('/question/<question_id>', methods={'DELETE'})
 def delete_question(question_id):
     question = Question.query.filter_by(id=question_id).first()
     if not question:
@@ -93,8 +88,5 @@ def delete_question(question_id):
         db.session.commit()
     except sqlalchemy.exc.SQLAlchemyError as e:
         error = "Cannot delete question. "
-        print(app.config.get("DEBUG"))
-        if app.config.get("DEBUG"):
-            error += str(e)
         return make_response(jsonify({"code": 404, "msg": error}), 404)
     return jsonify({"code": 200, "msg": "success"})

@@ -1,18 +1,19 @@
-from flask import jsonify, make_response, request
-from main import app
+from flask import jsonify, make_response, request, Blueprint
 from models import db, row2dict, User, Question, Answer
 import sqlalchemy
 
+answer_view = Blueprint("answer_view", __name__)
+
 
 # get all answers
-@app.route("/answer")
+@answer_view.route("/answer")
 def get_all_answer():
     answer_list = Answer.query.all()
     return jsonify([row2dict(answer) for answer in answer_list])
 
 
 # get answer by id
-@app.route("/answer/<answer_id>")
+@answer_view.route("/answer/<answer_id>")
 def get_answer(answer_id):
     answer = Answer.query.filter_by(id=answer_id).first()
     if answer:
@@ -22,7 +23,7 @@ def get_answer(answer_id):
 
 
 # get answers by question id
-@app.route("/answer-by-question/<question_id>")
+@answer_view.route("/answer-by-question/<question_id>")
 def get_answer_by_question(question_id):
     question = Question.query.filter_by(id=question_id)
     if not question:
@@ -35,7 +36,7 @@ def get_answer_by_question(question_id):
 
 
 # insert new answer
-@app.route("/answer", methods={"POST"})
+@answer_view.route("/answer", methods={"POST"})
 def create_answer():
     content = request.form.get("content")
     user_id = request.form.get("userID")
@@ -55,15 +56,12 @@ def create_answer():
         db.session.commit()
     except sqlalchemy.exc.SQLAlchemyError as e:
         error = "Cannot insert answer. "
-        print(app.config.get("DEBUG"))
-        if app.config.get("DEBUG"):
-            error += str(e)
         return make_response(jsonify({"code": 404, "msg": error}), 404)
     return jsonify({"code": 200, "msg": "success"})
 
 
 # update answer
-@app.route("/answer/<answer_id>", methods={"PUT"})
+@answer_view.route("/answer/<answer_id>", methods={"PUT"})
 def edit_answer(answer_id):
     content = request.form.get("content")
     if not content:
@@ -78,15 +76,12 @@ def edit_answer(answer_id):
         db.session.commit()
     except sqlalchemy.exc.SQLAlchemyError as e:
         error = "Cannot update answer. "
-        print(app.config.get("DEBUG"))
-        if app.config.get("DEBUG"):
-            error += str(e)
         return make_response(jsonify({"code": 404, "msg": error}), 404)
     return jsonify({"code": 200, "msg": "success"})
 
 
 # delete answer
-@app.route('/answer/<answer_id>', methods={'DELETE'})
+@answer_view.route('/answer/<answer_id>', methods={'DELETE'})
 def delete_answer(answer_id):
     answer = Answer.query.filter_by(id=answer_id).first()
     if not answer:
@@ -97,8 +92,5 @@ def delete_answer(answer_id):
         db.session.commit()
     except sqlalchemy.exc.SQLAlchemyError as e:
         error = "Cannot delete answer. "
-        print(app.config.get("DEBUG"))
-        if app.config.get("DEBUG"):
-            error += str(e)
         return make_response(jsonify({"code": 404, "msg": error}), 404)
     return jsonify({"code": 200, "msg": "success"})
